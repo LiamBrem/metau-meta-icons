@@ -1,0 +1,34 @@
+{
+  "name": "metau-meta-icons",
+  "version": "1.0.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate:index": "node generate-index.js",
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.44.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
