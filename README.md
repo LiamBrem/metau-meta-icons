@@ -23,8 +23,8 @@ The correct naming conventions can be found in /src/index.js
 
 ## Example
 
-(./assets/code.png)
-(./assets/icon.png)
+![code](./assets/code.png)
+![icon](./assets/icon.png)
 
 ## Available Icons
 
